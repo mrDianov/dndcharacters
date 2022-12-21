@@ -1,9 +1,10 @@
-package com.example.ddcharactersheet
+package com.example.ddcharactersheet.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ddcharactersheet.adapters.CharacterCardAdapter
+import com.example.ddcharactersheet.R
+import com.example.ddcharactersheet.view.adapters.CharacterCardAdapter
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

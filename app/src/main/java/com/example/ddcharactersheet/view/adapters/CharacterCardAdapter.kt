@@ -1,4 +1,4 @@
-package com.example.ddcharactersheet.adapters
+package com.example.ddcharactersheet.view.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ddcharactersheet.R
-import com.example.ddcharactersheet.models.CharacterCardModel
+import com.example.ddcharactersheet.data.models.CharacterCardModel
 
 class CharacterCardAdapter(private val dataSet: Array<CharacterCardModel>) : RecyclerView.Adapter<CharacterCardAdapter.ViewHolder>() {
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
