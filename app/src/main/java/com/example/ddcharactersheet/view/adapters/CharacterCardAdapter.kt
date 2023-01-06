@@ -9,6 +9,7 @@ import com.example.ddcharactersheet.R
 import com.example.ddcharactersheet.data.models.CharacterCardModel
 
 class CharacterCardAdapter(private val dataSet: Array<CharacterCardModel>) : RecyclerView.Adapter<CharacterCardAdapter.ViewHolder>() {
+
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val nameView: TextView = view.findViewById(R.id.name)
         val infoView: TextView = view.findViewById(R.id.info)
